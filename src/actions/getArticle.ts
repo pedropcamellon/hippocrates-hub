@@ -1,7 +1,7 @@
+import { Favorites, Follows } from '@/../prisma/generated/client'
 import { prisma } from '@/libs/prisma'
-import getCurrentUser from '@/actions/getCurrentUser'
 import { userMapper } from '@/app/api/mapper'
-import { Favorites, Follows, Tag } from '@prisma/client'
+import getCurrentUser from '@/actions/getCurrentUser'
 
 interface IArticleParams {
   slug: string
