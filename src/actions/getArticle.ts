@@ -1,6 +1,7 @@
 import { prisma } from '@/libs/prisma'
 import getCurrentUser from '@/actions/getCurrentUser'
 import { userMapper } from '@/app/api/mapper'
+import { Favorites, Follows, Tag } from '@prisma/client'
 
 interface IArticleParams {
   slug: string
@@ -45,9 +46,12 @@ export async function getArticle(params: IArticleParams) {
     }
 
     const following = data.author.followedBy.some(
-      (follow) => follow.followerId === userId,
+      (follow: Follows) => follow.followerId === userId,
     )
-    const favorited = data.favoritedBy.some((fav) => fav.userId === userId)
+
+    const favorited = data.favoritedBy.some(
+      (fav: Favorites) => fav.userId === userId,
+    )
 
     return {
       ...data,
