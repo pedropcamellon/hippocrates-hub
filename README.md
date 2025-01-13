@@ -16,7 +16,7 @@ Next.js 14, React, Prisma, Postgres
 
 First, run the development server:
 
-```
+```shell
 docker-compose up --build --force-recreate
 ```
 
@@ -24,7 +24,7 @@ Open `http://localhost:3000` with your browser to see the result.
 
 ## Production
 
-```
+```shell
 # Build prod
 docker compose -f docker-compose.production.yml build
 
