@@ -1,6 +1,6 @@
 // https://www.prisma.io/docs/guides/database/troubleshooting-orm/help-articles/nextjs-prisma-client-dev-practices
 import { PrismaClient } from '@prisma/client'
-import { Prisma } from '.prisma/client'
+import { Prisma } from '@/../prisma/generated/client'
 
 const prismaClientSingleton = () => {
   let opt: Prisma.PrismaClientOptions = {}
