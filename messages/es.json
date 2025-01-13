@@ -1,0 +1,70 @@
+{
+  "Header": {
+    "app-name": "Hippocrates Hub",
+    "home": "Inicio",
+    "new-post": "Nueva Publicación",
+    "settings": "Configuraciones",
+    "sign-up": "Regístrate",
+    "sign-in": "Iniciar sesión"
+  },
+  "Home": {
+    "description": "Empoderando la salud a través de la sabiduría compartida",
+    "popular-tags": "Etiquetas Populares",
+    "global-feed": "Feed Global",
+    "your-feed": "Tu Feed"
+  },
+  "Auth": {
+    "sign-in": "Iniciar sesión",
+    "sign-up": "Regístrate",
+    "need-account": "¿Necesitas una cuenta?",
+    "have-account": "¿Tienes una cuenta?",
+    "username": "Nombre de usuario",
+    "email": "Correo electrónico",
+    "password": "Contraseña"
+  },
+  "Editor": {
+    "title": "Título del Artículo",
+    "description": "¿De qué trata este artículo?",
+    "body": "Escribe tu artículo (en markdown)",
+    "tags": "Ingresa etiquetas",
+    "publish": "Publicar Artículo"
+  },
+  "Settings": {
+    "your-settings": "Tus Configuraciones",
+    "sign-out": "O haz clic aquí para cerrar sesión.",
+    "image": "URL de la foto de perfil",
+    "username": "Tu Nombre",
+    "bio": "Breve biografía sobre ti",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "update-settings": "Actualizar Configuraciones"
+  },
+  "Profile": {
+    "edit-profile": "Editar Configuraciones del Perfil",
+    "my": "Mis Artículos",
+    "favorite": "Artículos Favoritos",
+    "follow": "Seguir",
+    "unfollow": "Dejar de seguir"
+  },
+  "Article": {
+    "favorite": "Favorito",
+    "unfavorite": "No Favorito",
+    "write-comment": "Escribe un comentario...",
+    "post-comment": "Publicar Comentario",
+    "comment-later": "para agregar comentarios en este artículo."
+  },
+  "Footer": {
+    "licence": "Código y diseño licenciados bajo MIT."
+  },
+  "Misc": {
+    "or": "o",
+    "no-articles": "No hay artículos aquí... todavía.",
+    "404": "Esta página no pudo ser encontrada.",
+    "404-desc": "Lo siento, pero parece que esa página no existe.",
+    "return-home": "Volver al Inicio"
+  },
+  "LocaleSelector": {
+    "en": "Inglés",
+    "es": "Español"
+  }
+}
