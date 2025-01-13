@@ -43,7 +43,7 @@ Open `http://localhost:3000`.
 5. Comments on articles
 6. Favorite articles
 7. Follow other users
-8. i18n: English, Chinese Simplified
+8. i18n: English, Spanish Simplified
 
 ## References
 
