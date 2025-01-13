@@ -1,4 +1,4 @@
-import { User } from '.prisma/client'
+import { User } from '@/../prisma/generated/client'
 import { defaultImage } from '@/utils/constants'
 
 export function userMapper(user: User, following: boolean = false) {
