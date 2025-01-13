@@ -1,4 +1,4 @@
-import { Article, User, Comment } from '.prisma/client'
+import { Article, User, Comment } from '@/../prisma/generated/client'
 
 export interface Profile extends Omit<User, 'password'> {
   following: boolean
